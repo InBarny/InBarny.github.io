@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Для Капитанов Лидеров</title>
+    <link rel="shortcut icon"
+        href="https://eios.kmept.ru/pluginfile.php/1/theme_opentechnology/settings_1016_main_favicon/1726063174/K.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 300px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: none;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .header-wrapper {
+            width: 100%;
+            background: #000;
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        body {
+            padding-top: 0px;
+        }
+
+        .sidebar {
+            text-align: left;
+            width: 15%;
+            height: calc(98vh - 40px);
+            position: fixed;
+            top: 60px;
+            left: 0;
+            background-color: #f4f4f4;
+            padding: 0px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            z-index: 999;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin: 8px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 15px;
+            display: block;
+            border-radius: 5px;
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #e0e0e0;
+            color: #000;
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-wrapper"></div>
+    <div class="sidebar">
+        <h2>Меню</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="состав команд.html">Состав команд</a></li>
+            <li>
+                <a href="для капитанов лидеров.html">Для капитанов лидеров</a>
+            </li>
+            <li>
+                <a href="Индивидуальная работа.html">Индивидуальная работа</a>
+            </li>
+            <li>
+                <a href="критерии оценки проекта.html">Критерии оценки проекта</a>
+            </li>
+            <li><a href="планирование ИП.html">Планирование ИП</a></li>
+            <li>
+                <a href="расписание защит ИП .html">Расписание защит ИП</a>
+            </li>
+            <li>
+                <a href="расписание ПРЕДзащит ИП.html">Расписание предзащит ИП</a>
+            </li>
+            <li><a href="Результаты защиты.html">Результаты защиты</a></li>
+            <li><a href="тех задания.html">Тех задания</a></li>
+        </ul>
+    </div>
+
+    <h1>Для Капитанов Лидеров</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ФИО наставника</th>
+                <th>ФИО капитанов</th>
+                <th>Номер команды</th>
+                <th>Название команды</th>
+                <th>ФИО лидера по курсам</th>
+                <th class="thuser">Участники команд</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Воронина Виктория Павловна</td>
+                <td>Овсиенко Тимофей</td>
+                <td>1</td>
+                <td>Троян</td>
+                <td>Кириллов Иван</td>
+                <td>
+                    Кириллов Иван,<br>
+                    Обушко Алексей,<br>
+                    Даниил Морозов,<br>
+                    Максим Гавриков,<br>
+                    Илья Сницаренко,<br>
+                    Демидов Никита,<br>
+                    Мухин Алексей,<br>
+                    Шишов Руслан
+                </td>
+            </tr>
+            <tr>
+                <td>Маткова Дарья Сергеевна</td>
+                <td>Ротару Константин</td>
+                <td>2</td>
+                <td>Чугунки</td>
+                <td>Ротару Константин</td>
+                <td>
+                    Айдян Инесса,<br>
+                    Зайцева Елизавета,<br>
+                    Никишин Дмитрий,<br>
+                    Янич Стефан,<br>
+                    Новоселов Михаил,<br>
+                    Нажмиев Тимур,<br>
+                    Бауков Евгений,<br>
+                    Герасимова Вероника,<br>
+                    Филаровски Елизавета,<br>
+                    Одабашян Данил,<br>
+                    Кирилл Мележик,<br>
+                    Абдулаев Камиль,<br>
+                    Румянцев Сергей
+                </td>
+            </tr>
+            <tr>
+                <td>Герасимова Вероника</td>
+                <td>Филаровски Елизавета</td>
+                <td>3</td>
+                <td>Инфохаб</td>
+                <td>Никишин Дмитрий</td>
+                <td>
+                    Бертин Артём,<br>
+                    Никишин Дмитрий,<br>
+                    Карего Илья,<br>
+                    Николаев Андрей,<br>
+                    Лисицын Дмитрий,<br>
+                    Овсиенко Тимофей,<br>
+                    Купина София,<br>
+                    Шальмиев Шимту,<br>
+                    Ильтяков Арсений,<br>
+                    Рыков Максим,<br>
+                    Арзамасцев Родион,<br>
+                    Одобошан Даниил,<br>
+                    Карпов Максим,<br>
+                    Дякина Екатерина,<br>
+                    Миронов Степан
+                </td>
+            </tr>
+            <tr>
+                <td>Велиева Сабрина</td>
+                <td>Котова Дарья</td>
+                <td>4</td>
+                <td>Магический прайс (Magic price)</td>
+                <td>Гаранин Никита</td>
+                <td>
+                    Рындык Кирилл,<br>
+                    Соляник Антон,<br>
+                    Расторгуев Трофим,<br>
+                    Евдокимов Алексей,<br>
+                    Котова Дарья,<br>
+                    Станислава Пчёлкина,<br>
+                    Кирвель Никита,<br>
+                    Гришин Павел,<br>
+                    Ощепков Никита,<br>
+                    Добровольская Полина
+                </td>
+            </tr>
+            <tr>
+                <td>Поляков Владислав Ильич</td>
+                <td>Ремнева Анна</td>
+                <td>5</td>
+                <td>Байт план</td>
+                <td>Ремнева Анна</td>
+                <td>
+                    Юсинова Кристина,<br>
+                    Мирошникова Лилия,<br>
+                    Овчинников Дмитрий,<br>
+                    Семёнов Артём,<br>
+                    Шарапов Тимофей
+                </td>
+            </tr>
+            <tr>
+                <td>Аравина Ирина Юрьева</td>
+                <td>Леонтьев Александр</td>
+                <td>6</td>
+                <td>Gymsters/Джимстерс</td>
+                <td>Леонтьев Александр</td>
+                <td>
+                    Харчистов Савелий,<br>
+                    Старовойтов Святослав,<br>
+                    Юлдошалиев Жавохирбек,<br>
+                    Орлов Фёдор,<br>
+                    Таран Артём,<br>
+                    Дырдин Валерий
+                </td>
+            </tr>
+            <tr>
+                <td>Субхонов Улугбек</td>
+                <td>Солякова Василиса</td>
+                <td>7</td>
+                <td>Туда Сюда Миллионеры</td>
+                <td>Юденков Павел</td>
+                <td>
+                    Хошманд Азими,<br>
+                    Усян Чернышов Артём,<br>
+                    Таран Артём,<br>
+                    Новиков Степан,<br>
+                    Жегина Дарья
+                </td>
+            </tr>
+            <tr>
+                <td>Маслов Дмитрий Романович</td>
+                <td>Фомин Роман</td>
+                <td>8</td>
+                <td>Control Pulse Industries</td>
+                <td>Брескер Илья</td>
+                <td>
+                    Фомин Роман,<br>
+                    Настас Никита,<br>
+                    Дорошко Даниил,<br>
+                    Подобин Иван,<br>
+                    Фархан Леон
+                </td>
+            </tr>
+            <tr>
+                <td>Некит Карина Руслановна</td>
+                <td>Бабаджан Егор</td>
+                <td>9</td>
+                <td>Лос Пингвинос</td>
+                <td>Дементьев Егор</td>
+                <td>
+                    Атанезов Александр,<br>
+                    Радченко Богдан,<br>
+                    Дорофеева Самира,<br>
+                    Шахвердиева Нигяр
+                </td>
+            </tr>
+            <tr>
+                <td>Степанова Владлена Евгеньевна</td>
+                <td>Бабакишвили Лео</td>
+                <td>10</td>
+                <td>RWCP (resale world class production)</td>
+                <td>Игнатьева Ксения</td>
+                <td>
+                    Астафьев Михаил,<br>
+                    Игнатьева Ксения,<br>
+                    Белявцев Денис,<br>
+                    Малиновский Алексей
+                </td>
+            </tr>
+            <tr>
+                <td>Гончарова Анастасия Витальевна</td>
+                <td>Хузин Давид</td>
+                <td>11</td>
+                <td>Увековеченно в камне</td>
+                <td>Беляков Даниил</td>
+                <td>
+                    Банова Алина,<br>
+                    Каюмова Сарвиноз,<br>
+                    Аникин Тимофей
+                </td>
+            </tr>
+            <tr>
+                <td>Ясколд Нина</td>
+                <td>Чуприна Надежда</td>
+                <td>12</td>
+                <td>Юные предприниматели</td>
+                <td>Кудерко Герман</td>
+                <td>
+                    Коновалова Дарья,<br>
+                    Чуприна Надежда
+                </td>
+            </tr>
+            <tr>
+                <td>Лина Тасалова</td>
+                <td>Кожокарь Виктория</td>
+                <td>13</td>
+                <td>клод монэ</td>
+                <td>Лашков Даниил</td>
+                <td>
+                    Баранов Матвей,<br>
+                    Бахтиярова София
+                </td>
+            </tr>
+            <tr>
+                <td>Шмакова Полина Вадимовна</td>
+                <td>Бабакишвили Лео</td>
+                <td>14</td>
+                <td>Экипаж X</td>
+                <td>Абдуллин Илиан</td>
+                <td>
+                    Абдуллина Зарина,<br>
+                    Михеев Михаил
+                </td>
+            </tr>
+            <tr>
+                <td>Ройляну Богдан</td>
+                <td>Романюк Артемий</td>
+                <td>15</td>
+                <td>Покорители Универмага Таёжный</td>
+                <td>Романюк Артемий</td>
+                <td>
+                    Казакова Диана,<br>
+                    Дурягин Даниил
+                </td>
+            </tr>
+            <tr>
+                <td>Барски Дмитрий</td>
+                <td>Тамразян Тигран</td>
+                <td>16</td>
+                <td>Ось</td>
+                <td>Ларин Вячеслав</td>
+                <td>
+                    Данилов Арсений,<br>
+                    Ахметшин Артём
+                </td>
+            </tr>
+            <tr>
+                <td>Рахмонова Райхона</td>
+                <td>Козик Матвей</td>
+                <td>17</td>
+                <td>Черный ящик</td>
+                <td>Козик Матвей</td>
+                <td>
+                    Ланина Мария,<br>
+                    Литвинова Александра
+                </td>
+            </tr>
+            <tr>
+                <td>Кирилл Пузыренко</td>
+                <td>Гусев Андрей</td>
+                <td>18</td>
+                <td>Магнаты</td>
+                <td>Гусев Андрей</td>
+                <td>
+                    Мукаев Дени,<br>
+                    Иванов Евгений
+                </td>
+            </tr>
+            <tr>
+                <td>Никита Бобровицкий</td>
+                <td>Тимуршин Владислав</td>
+                <td>19</td>
+                <td>Лос Пингвинос</td>
+                <td>Дементьев Егор</td>
+                <td>
+                    Атанезов Александр,<br>
+                    Радченко Богдан
+                </td>
+            </tr>
+            <tr>
+                <td>Шмакова Полина</td>
+                <td>Бабакишвили Лео</td>
+                <td>20</td>
+                <td>RWCP (resale world class production)</td>
+                <td>Игнатьева Ксения</td>
+                <td>
+                    Астафьев Михаил,<br>
+                    Игнатьева Ксения
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
