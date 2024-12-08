@@ -743,7 +743,7 @@ main .recent-orders a {
   }
   .container {
     width: 100%;
-    grid-template-columns: 1fr;
+    grid-template-columns: 360px;
     padding: 0 var(--padding-1);
   }
   aside {
